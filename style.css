@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body{
+  background:url(/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+header {
+  background: linear-gradient(90deg, #060255 0%, #3c3cb3 25%, #00d4ff 100%);
+  background-repeat: no-repeat;
+  border-radius: 15px,50px,30px;
+  background-position: top;
+  font-size: 2rem;
+  size: 5rem;
+  
+}
+
+h1 {
+  font-family: costumFont;
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.788);
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.548);
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 2rem;
+  font-family: costumFont2;
+  position: relative;
+  top: 30rem;
+}
+
+button {
+  font-size: 1.8rem;
+  stroke-linecap: round;
+  background-color: rgba(128, 128, 128, 0.452);
+  border: 0.5rem solid rgba(128, 128, 128, 0.452);
+  color: rgba(0, 0, 0, 0.507);
+  padding: 1.5rem;
+  border-radius: 2rem;
+  margin-right: 3rem;
+  position: relative;
+}
+
+@font-face {
+  font-family: costumFont;
+  src: url(./fontTypeText/darkhornet.ttf);
+}
+
+@font-face {
+  font-family: costumFont2;
+  src: url(./fontTypeText/Rahovets.otf);
+}
+
+
+li.contact{
+  font-size: 1.8rem;
+  font-family: costumFont;
+  display: inline;
+  text-decoration: none;
+  color: rgba(255, 218, 173, 0.884);
+  border: 10;
+  margin-right: auto !important;
+}

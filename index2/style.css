@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1 {
+  font-family: costumFont;
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.788);
+  text-shadow: 1px 3px 5px rgba(0, 0, 0, 0.548);
+  text-align: center;
+}
+
+p {
+  color: green;
+  text-shadow: 1px 1px 2px black;
+  font-size: 2rem;
+  font-family: costumFont2;
+}
+
+button {
+  font-size: 1.8rem;
+  stroke-linecap: round;
+  background-color: rgba(128, 128, 128, 0.452);
+  border: 0.5rem solid rgba(128, 128, 128, 0.664);
+  color: rgba(0, 0, 0, 0.507);
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+body {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#060255), color-stop(25%, #3c3cb3), to(#00d4ff));
+  background: linear-gradient(90deg, #060255 0%, #3c3cb3 25%, #00d4ff 100%);
+  background-repeat: no-repeat;
+  border-radius: 15px,50px,30px;
+  background-size: cover;
+  max-width: 7680px;
+  min-width: 200px;
+  max-height: 7680px;
+  min-height: 200px;
+  margin-bottom: 100%;
+  padding-right: auto;
+}
+
+@font-face {
+  font-family: costumFont;
+  src: url(./fontTypeText/darkhornet.ttf);
+}
+
+@font-face {
+  font-family: costumFont2;
+  src: url(./fontTypeText/Rahovets.otf);
+}
+
+nav {
+  font-family: costumFont;
+  font-size: 2rem;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
