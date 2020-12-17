@@ -1,0 +1,19 @@
+@font-face {
+    font-family: costumFont;
+    src: url(./fontTypeText/darkhornet.ttf);
+  }
+  
+@font-face {
+    font-family: costumFont2;
+    src: url(./fontTypeText/Rahovets.otf);
+  }
+
+@font-face{
+    font-family: costumFont3;
+    src: url(/fontTypeText/BrightnessInverted.ttf);
+}  
+
+@font-face{
+    font-family: costumFont4;
+    src: url(/fontTypeText/Sephora.ttf);
+}
