@@ -10,10 +10,10 @@
 
 @font-face{
     font-family: costumFont3;
-    src: url(/fontTypeText/BrightnessInverted.ttf);
+    src: url(./fontTypeText/BrightnessInverted.ttf);
 }  
 
 @font-face{
     font-family: costumFont4;
-    src: url(/fontTypeText/Sephora.ttf);
+    src: url(./fontTypeText/Sephora.ttf);
 }
