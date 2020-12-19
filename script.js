@@ -1,10 +1,1 @@
-var button = document.getElementById("button");
-var click = addEventListener("click");
-
-function () {
-
-    if () {
-
-    }
-
-}
+jQuery("h2").fitText(0.38);
